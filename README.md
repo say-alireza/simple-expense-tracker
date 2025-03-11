@@ -1,50 +1,88 @@
-# React + TypeScript + Vite
+Expense Tracker - React
+Expense Tracker Screenshot  ![the main screenshot](https://github.com/user-attachments/assets/2c790a84-0d20-4258-8829-1bf214aabaa1)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive Expense Tracker application built with React. This app allows users to track their expenses by adding descriptions, amounts, and categories. It also includes input validation and filtering by category.
 
-Currently, two official plugins are available:
+Features
+Add Expenses: Users can add expenses with a description, amount, and category.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Input Validation: Ensures valid data entry (e.g., minimum description length, valid amount range).
 
-## Expanding the ESLint configuration
+Category Filtering: Expenses can be filtered by categories such as Groceries, Utilities, and Entertainment.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Form Reset: The form resets after submitting an expense for a seamless user experience.
 
-- Configure the top-level `parserOptions` property like this:
+Error Handling: Clear error messages are displayed for invalid inputs.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Technologies Used
+React: A JavaScript library for building user interfaces.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+TypeScript: Adds static typing to JavaScript for better code quality and maintainability.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+React Hook Form: Simplifies form management and validation.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Zod: A TypeScript-first schema validation library for form validation.
+
+Bootstrap: For responsive and modern UI components.
+
+Installation
+Follow these steps to set up the project locally:
+
+Clone the Repository:
+
+bash
+Copy
+git clone https://github.com/your-username/expense-tracker-react.git
+cd expense-tracker-react
+Install Dependencies:
+
+bash
+Copy
+npm install
+Run the Application:
+
+bash
+Copy
+npm start
+Open in Browser:
+The app will be running at http://localhost:3000.
+
+Usage
+Add an Expense:
+
+Fill in the description, amount, and category.
+
+Click "Submit" to add the expense.
+
+Filter Expenses:
+
+Use the category filter to view expenses by specific categories.
+
+Validation:
+
+If any field is invalid, an error message will be displayed below the input.
+
+Folder Structure
+Copy
+expense-tracker-react/
+├── src/
+│   ├── components/         # Reusable components
+│   ├── categories.ts       # List of expense categories
+│   ├── App.tsx             # Main application component
+│   ├── index.tsx           # Entry point
+│   └── styles/             # CSS or SCSS files
+├── public/                 # Static assets
+├── package.json            # Project dependencies
+└── README.md               # Project documentation
+Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+Fork the repository.
+
+Create a new branch (git checkout -b feature/your-feature-name).
+
+Commit your changes (git commit -m 'Add some feature').
+
+Push to the branch (git push origin feature/your-feature-name).
+
+Open a pull request.
