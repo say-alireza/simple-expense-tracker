@@ -1,41 +1,41 @@
 <h1>Expense Tracker - React</h1>
 
   ![the main screenshot](https://github.com/user-attachments/assets/2c790a84-0d20-4258-8829-1bf214aabaa1)
-
+## Instruction
 A simple and intuitive Expense Tracker application built with React. This app allows users to track their expenses by adding descriptions, amounts, and categories. It also includes input validation and filtering by category.
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Table of Contents
-Introduction
-Features
-Technologies Used
-Installation
-Usage
-Contributing
-License
-Contact
-Introduction
+## Introduction
 The Expense Tracker is a web application designed to help users manage their personal finances by tracking their income and expenses. With an intuitive interface and powerful features, users can easily monitor their spending habits, set budgets, and gain insights into their financial health.
 
-Features
-User Authentication: Secure login and registration for users.
-Expense Tracking: Add, edit, and delete expenses with ease.
-Income Tracking: Record and manage various sources of income.
-Budgeting Tools: Set monthly budgets and track progress.
-Reports and Analytics: Visualize spending patterns with charts and graphs.
-Responsive Design: Accessible on both desktop and mobile devices.
-Technologies Used
-Frontend: HTML, CSS, JavaScript, React (or any other framework you used)
-Backend: Node.js, Express (or any other backend technology)
-Database: MongoDB, PostgreSQL (or any other database you used)
-Version Control: Git, GitHub
-Installation
+## Features
+- **User  Authentication**: Secure login and registration for users.
+- **Expense Tracking**: Add, edit, and delete expenses with ease.
+- **Income Tracking**: Record and manage various sources of income.
+- **Budgeting Tools**: Set monthly budgets and track progress.
+- **Reports and Analytics**: Visualize spending patterns with charts and graphs.
+- **Responsive Design**: Accessible on both desktop and mobile devices.
+
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript, React (or any other framework you used)
+- **Backend**: Node.js, Express (or any other backend technology)
+- **Database**: MongoDB, PostgreSQL (or any other database you used)
+- **Version Control**: Git, GitHub
+
+## Installation
 To get started with the Expense Tracker, follow these steps:
 
-Clone the repository:
-bash
-Run
-Copy code
-git clone https://github.com/yourusername/expense-tracker.git
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/expense-tracker.git
 Navigate to the project directory:
 bash
 Run
