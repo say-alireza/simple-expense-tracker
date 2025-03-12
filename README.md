@@ -1,5 +1,6 @@
-Expense Tracker - React
-Expense Tracker Screenshot  ![the main screenshot](https://github.com/user-attachments/assets/2c790a84-0d20-4258-8829-1bf214aabaa1)
+<h1>Expense Tracker - React</h1>
+
+  ![the main screenshot](https://github.com/user-attachments/assets/2c790a84-0d20-4258-8829-1bf214aabaa1)
 
 A simple and intuitive Expense Tracker application built with React. This app allows users to track their expenses by adding descriptions, amounts, and categories. It also includes input validation and filtering by category.
 
